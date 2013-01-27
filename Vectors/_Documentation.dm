@@ -101,8 +101,14 @@
 			Returns true if v is a vector.
 			A recognized vector is a /list of length 2.
 
+	-	vec2_iszero(vector v)
+		vec2_is_zero(...)
+			Returns true if v is equivalent to the zero vector. 
+			Also returns true if v evaluates to false. 
+
 	-	vec2_cmp(vector v, vector u)
 		vec2_compare(...)
+		vec2_equals(...)
 			Returns true if v and u are equivalent vectors:
 			- Their x and y components are equal.
 			- They have the same magnitude and direction.

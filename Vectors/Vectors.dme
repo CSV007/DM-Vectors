@@ -15,6 +15,7 @@
 
 // BEGIN_INCLUDE
 #include "_Documentation.dm"
-#include "Vectors.dm"
+#include "vec2.dm"
+#include "vec3.dm"
 // END_INCLUDE
 
